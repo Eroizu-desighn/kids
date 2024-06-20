@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drawster - Buy Beautiful Drawings</title>
+    <style>
+
+header p {
+    margin: 0.5em 0;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.product-card {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+.product-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.product-card h2 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.product-card p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+.product-card button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.product-card button:hover {
+    background-color: #45a049;
+}
+
+    </style>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <center><h1 >Drawster</h1></center>
+    <center><p>Buy Beautiful Drawings</p></center>
+
+    </header>
+    <main>
+        <div class="product-grid">
+            <!-- Product Cards -->
+            <div class="product-card">
+                
+            
+                <h2>Flower</h2>
+                <img src="flower.jpeg" alt="">
+                <p>Price: 10RS/-</p>
+                <button onclick="alert('message to buy: 03332587766')">Buy Now</button>
+            </div>
+            <div class="product-card">
+                
+                <h2>car</h2>
+                <img src="car.jpeg" alt="">
+                <p>Price: 20RS/-</p>
+                <button onclick="alert('message  to buy: 03332587766')">Buy Now</button>
+            </div>
+            <div class="product-card">
+             
+                <h2>house</h2>
+                <img src="house.jpeg" alt="">
+                <p>Price: 20RS/-</p>
+                <button onclick="alert('message  to buy: 03332587766')">Buy Now</button>
+            </div>
+            <div class="product-card">
+             
+                <h2>special</h2>
+                <img src="special.jpeg" alt="">
+                <p>Price: 20RS/-</p>
+                <button onclick="alert('message  to buy: 03332587766')">Buy Now</button>
+            </div>
+            <div class="product-card">
+             
+                <h2>special</h2>
+                <img src="special2.jpeg" alt="">
+                <p>Price: 20RS/-</p>
+                <button onclick="alert('message  to buy: 03332587766')">Buy Now</button>
+            </div>
+            
+    </main>
+</body>
+</html>
